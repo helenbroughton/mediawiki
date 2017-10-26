@@ -1,0 +1,9 @@
+{
+	"repositories": [{
+			"type": "composer",
+			"url": "https://packages.bluespice.com/"
+		}],
+	"require": {
+		"mediawiki/blue-spice-upgrade-helper": "dev-REL1_27"
+	}
+}
