@@ -1,9 +1,0 @@
-{
-  "repositories": [{
-    "type": "vcs",
-    "url": "git@gitlab.hallowelt.com:BlueSpice/BlueSpiceUpgradeHelper.git"
-  }],
-  "require": {
-    "mediawiki/blue-spice-upgrade-helper": "dev-master"
-  }
-}
