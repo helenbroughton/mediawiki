@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/core",
+	"name": "hallowelt/bluespice",
 	"description": "Free software wiki application developed by the Wikimedia Foundation and others",
 	"keywords": ["mediawiki", "wiki"],
 	"homepage": "https://www.mediawiki.org/",
@@ -50,7 +50,7 @@
 		"monolog/monolog": "~1.18.2",
 		"nikic/php-parser": "1.4.1",
 		"nmred/kafka-php": "0.1.5",
-		"phpunit/phpunit": "4.8.24",
+		"phpunit/phpunit": "4.8.36",
 		"wikimedia/testing-access-wrapper": "~1.0",
 		"wikimedia/avro": "1.7.7"
 	},
@@ -68,7 +68,8 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"ComposerHookHandler": "includes/composer"
+			"ComposerHookHandler": "includes/composer",
+			"ComposerVendorHtaccessCreator": "includes/composer"
 		}
 	},
 	"scripts": {
@@ -77,6 +78,11 @@
 		"fix": "phpcbf",
 		"pre-install-cmd": "ComposerHookHandler::onPreInstall",
 		"pre-update-cmd": "ComposerHookHandler::onPreUpdate",
+		"post-update-cmd": [
+			"wget -nc https://github.com/hallowelt/misc-BSsolr/releases/download/v4.7.2/solr.war -P extensions/BlueSpiceExtensions/ExtendedSearch/webservices",
+			"ComposerVendorHtaccessCreator::onEvent"
+		],
+		"post-install-cmd": "ComposerVendorHtaccessCreator::onEvent",
 		"test": [
 			"composer lint",
 			"composer phpcs"
@@ -93,5 +99,8 @@
 			],
 			"merge-dev": false
 		}
+	},
+	"archive": {
+		"exclude": ["!/vendor", "!/composer.local.json", "!/composer.json", "!/composer.lock"]
 	}
 }
