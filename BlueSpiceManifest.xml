@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest
+	versionCode="2.27.3"
+	versionName="v2.27.3"
+	repository="https://github.com/hallowelt/mediawiki"
+	branch="REL1_27_docker"
+	package="BlueSpice Free Docker"
+	system="docker"
+	installLocation="/var/www/bluespice"
+	configLocation="/etc/bluespice"
+	dataLocation="/var/bluespice"
+	solrLocation="/opt/bluespice"
+/>
