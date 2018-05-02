@@ -39,6 +39,15 @@
     "mediawiki/nuke": "dev-REL1_27",
     "mediawiki/parser-functions": "dev-REL1_27",
     "mediawiki/renameuser": "dev-REL1_27",
-    "mediawiki/blue-spice-tag-cloud": "dev-REL1_27"
+    "mediawiki/blue-spice-tag-cloud": "dev-REL1_27",,
+    "mediawiki/confirm-edit": "dev-REL1_27",
+    "mediawiki/interwiki": "dev-REL1_27",
+    "mediawiki/localisation-update": "dev-REL1_27",
+    "mediawiki/pdf-handler": "dev-REL1_27",
+    "mediawiki/poem": "dev-REL1_27",
+    "mediawiki/spam-blacklist": "dev-REL1_27",
+    "mediawiki/title-blacklist": "dev-REL1_27",
+    "mediawiki/wiki-editor": "dev-REL1_27",
+    "mediawiki/skin-vector": "dev-REL1_27"
   }
 }
