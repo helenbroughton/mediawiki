@@ -39,7 +39,7 @@
     "mediawiki/nuke": "dev-REL1_27",
     "mediawiki/parser-functions": "dev-REL1_27",
     "mediawiki/renameuser": "dev-REL1_27",
-    "mediawiki/blue-spice-tag-cloud": "dev-REL1_27",,
+    "mediawiki/blue-spice-tag-cloud": "dev-REL1_27",
     "mediawiki/confirm-edit": "dev-REL1_27",
     "mediawiki/interwiki": "dev-REL1_27",
     "mediawiki/localisation-update": "dev-REL1_27",
