@@ -9,6 +9,10 @@
 		"mediawiki/blue-spice-distribution-connector": "dev-REL1_27",
 		"mediawiki/blue-spice-echo-connector": "dev-REL1_27",
 		"mediawiki/blue-spice-edit-notify-connector": "dev-REL1_27",
+		"mediawiki/blue-spice-ldap-authentication-connector": "dev-REL1_27",
+		"mediawiki/blue-spice-tag-cloud": "dev-REL1_27",
+		"mediawiki/blue-spice-user-merge-connector": "dev-REL1_27",
+
 		"mediawiki/blue-spice-skin": "dev-REL1_27"
 	}
 }
