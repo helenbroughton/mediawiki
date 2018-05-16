@@ -71,3 +71,12 @@ Thumbs.db
 /tags
 /.htaccess
 /.htpasswd
+
+#bluespice
+/settings.d/*.local.php
+BLUESPICE-INSTALL
+BLUESPICE-LICENCE
+BLUESPICE-RELEASE-HISTORY
+BLUESPICE-RELEASE-NOTES
+dynamic_file.php
+installcheck.php
