@@ -83,6 +83,9 @@
 		"test": [
 			"composer lint",
 			"composer phpcs"
+		],
+		"pre-autoload-dump": [
+			"sh _bluespice/pre-autoload-dump.sh"
 		]
 	},
 	"config": {
