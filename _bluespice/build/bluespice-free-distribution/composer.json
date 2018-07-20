@@ -13,7 +13,7 @@
 		"mediawiki/embed-video": "2.7.3",
 		"mediawiki/hit-counters": "dev-REL1_27",
 		"mediawiki/image-map-edit": "dev-REL1_27",
-		"mediawiki/ldap-authentication": "dev-REL1_27",
+		"mediawiki/legacy-ldap-authentication": "dev-REL1_27",
 		"mediawiki/lockdown": "dev-REL1_27",
 		"mediawiki/mobile-frontend": "dev-REL1_27",
 		"mediawiki/nuke": "dev-REL1_27",
