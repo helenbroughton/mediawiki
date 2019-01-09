@@ -5,6 +5,9 @@ require_once "$IP/extensions/DynamicPageList/DynamicPageList.php";
 require_once "$IP/extensions/HitCounters/HitCounters.php";
 require_once "$IP/extensions/ImageMapEdit/ImageMapEdit.php";
 wfLoadExtension( 'Lockdown' );
+$GLOBALS['wgHooks']['UserLoadDefaults'][] = function( $user, $name ) {
+   $user->getEffectiveGroups( true );
+};
 require_once "$IP/extensions/Quiz/Quiz.php";
 require_once "$IP/extensions/RSS/RSS.php";
 require_once "$IP/extensions/Echo/Echo.php";
