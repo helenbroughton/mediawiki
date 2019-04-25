@@ -1,0 +1,10 @@
+{
+	"name": "Echo",
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "EchoHooks::onLoadExtensionSchemaUpdates"
+	},
+	"AutoloadClasses": {
+		"EchoHooks": "include.php"
+	},
+	"manifest_version": 1
+}

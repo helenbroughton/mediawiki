@@ -1,0 +1,10 @@
+{
+	"name": "TitleKey",
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "TitleKey::schemaUpdates"
+	},
+	"AutoloadClasses": {
+		"TitleKey": "include.php"
+	},
+	"manifest_version": 1
+}

@@ -1,10 +1,13 @@
 <?php
-$overrides['LocalSettingsGenerator'] = 'BSLocalSettingsGenerator';
 
-class BSLocalSettingsGenerator extends LocalSettingsGenerator {
-	function getText() {
-		// add a new setting
-		$ls = parent::getText();
-		return $ls . "\nrequire_once 'LocalSettings.BlueSpice.php';\n";
-	}
-}
+$GLOBALS['wgAutoloadClasses']['BsWebInstaller'] = __DIR__ . '/includes/BsWebInstaller.php';
+$GLOBALS['wgAutoloadClasses']['BsWebInstallerOptions'] = __DIR__ . '/includes/BsWebInstallerOptions.php';
+$GLOBALS['wgAutoloadClasses']['BsWebInstallerOutput'] = __DIR__ . '/includes/BsWebInstallerOutput.php';
+$GLOBALS['wgAutoloadClasses']['BsLocalSettingsGenerator'] = __DIR__ . '/includes/BsLocalSettingsGenerator.php';
+
+$overrides['LocalSettingsGenerator'] = 'BsLocalSettingsGenerator';
+$overrides['WebInstaller'] = 'BsWebInstaller';
+
+$GLOBALS['bsgSkipExtensions'] = array(
+	'BlueSpiceFoundation'
+);

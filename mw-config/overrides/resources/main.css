@@ -1,0 +1,61 @@
+.config-skins, .config-extensions {
+	display: none;
+}
+
+#mw-page-base, #mw-head-base {
+	display: none;
+}
+
+.mw-body {
+	margin-left: 11.5em;
+}
+
+body {
+	background-color: #3e5389;
+}
+
+div#mw-panel div.portal div.body ul li a {
+	color: white;
+}
+
+.config-page {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.config-page .config-message {
+	margin-left: 1em;
+}
+
+.mw-body h1,
+.mw-body h2 {
+	font-family: sans-serif;
+}
+
+.config-submit input[type="submit"] {
+    background-color: #ffae00;
+    border: 1px solid transparent;
+    color: black;
+    padding: 1em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	cursor: pointer;
+}
+
+.config-submit input[type="submit"]:hover {
+	border-color: #b73a3a;
+}
+
+.config-input-text {
+	padding: 0.5em;
+}
+
+div#mw-panel div#p-logo.portal {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    left: 0;
+    width: 11.6em;
+}

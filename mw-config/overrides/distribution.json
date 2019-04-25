@@ -1,0 +1,465 @@
+{
+	"ext-Cite": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-CiteThisPage": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-ConfirmEdit": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Gadgets": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-ImageMap": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-InputBox": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Interwiki": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Nuke": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-ParserFunctions": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-PdfHandler": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Poem": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-SpamBlacklist": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-SyntaxHighlight_GeSHi": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-TitleBlacklist": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-WikiEditor": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-LdapAuthentication": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-LocalisationUpdate": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Quiz": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Echo": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-CategoryTree": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-DynamicPageList": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-HitCounters": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-HitCounters": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-EmbedVideo": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-ImageMapEdit": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Lockdown": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-NSFileRepo": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-MobileFrontend": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-Renameuser": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-EditNotify": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-RSS": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-UserMerge": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-TitleKey": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceDistributionConnector": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceEchoConnector": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceEditNotifyConnector": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceUserMergeConnector": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/AboutBlueSpice": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ArticleInfo": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Authors": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Avatars": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Blog": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Checklist": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ContextMenu": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/CountThings": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/CSyntaxHighlight": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Dashboards": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Emoticons": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ExtendedEditBar": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ExtendedSearch": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ExtensionInfo": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Flexiskin": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/FormattingHelp": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/GroupManager": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/HideTitle": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/InsertCategory": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/InsertFile": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/InsertLink": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/InsertMagic": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/InterWikiLinks": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/NamespaceCss": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/NamespaceManager": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/PageAccess": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/PageAssignments": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/PagesVisited": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/PageTemplates": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/PermissionManager": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Preferences": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Readers": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Review": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/RSSFeeder": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/RSSStandards": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/SaferEdit": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/SecureFileStore": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/ShoutBox": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/SmartList": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/StateBar": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/Statistics": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/TopMenuBarCustomizer": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UEModulePDF": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UniversalExport": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UsageTracker": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UserManager": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UserPreferences": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/UserSidebar": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/VisualEditor": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/WantedArticle": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/WatchList": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/WhoIsOnline": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/WidgetBar": {
+		"value": false,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"ext-BlueSpiceExtensions/WikiAdmin": {
+		"value": true,
+		"requires": [],
+		"userCanEdit": false
+	},
+	"wgEnableUploads": {
+		"value": true
+	},
+	"_SkipOptional": {
+		"value": "continue",
+		"userCanEdit": false,
+		"render": false
+	}
+}
