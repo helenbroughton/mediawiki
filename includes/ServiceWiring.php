@@ -791,7 +791,9 @@ return [
 		return new ImportableOldRevisionImporter(
 			true,
 			LoggerFactory::getInstance( 'OldRevisionImporter' ),
-			$services->getDBLoadBalancer()
+			$services->getDBLoadBalancer(),
+			$services->getRevisionStore(),
+			$services->getSlotRoleRegistry()
 		);
 	},
 
@@ -1366,7 +1368,9 @@ return [
 		return new ImportableOldRevisionImporter(
 			false,
 			LoggerFactory::getInstance( 'OldRevisionImporter' ),
-			$services->getDBLoadBalancer()
+			$services->getDBLoadBalancer(),
+			$services->getRevisionStore(),
+			$services->getSlotRoleRegistry()
 		);
 	},
 
