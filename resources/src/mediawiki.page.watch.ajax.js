@@ -153,6 +153,11 @@
 				// page is watched or unwatched via the tab (T14395).
 				if ( document.getElementById( 'wpWatchthisWidget' ) ) {
 					OO.ui.infuse( '#wpWatchthisWidget' ).setSelected( isWatched === true );
+
+					// Also reset expiry selection to keep it in sync
+					if ( isWatched === true && document.getElementById( 'wpWatchlistExpiryWidget' ) ) {
+						OO.ui.infuse( '#wpWatchlistExpiryWidget' ).setValue( 'infinite' );
+					}
 				}
 			} );
 		}
@@ -247,8 +252,7 @@
 
 							mw.notify( watchlistPopup.$element, {
 								tag: 'watch-self',
-								autoHideSeconds: 'long',
-								autoHide: true
+								autoHideSeconds: 'short'
 							} );
 
 						} );

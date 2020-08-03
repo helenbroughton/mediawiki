@@ -11,10 +11,10 @@
 	$( function () {
 		var watchThisWidget, watchlistExpiryWidget;
 
-		if ( document.getElementById( 'wpWatchThisWidget' ) &&
+		if ( document.getElementById( 'wpWatchthisWidget' ) &&
 				document.getElementById( 'wpWatchlistExpiryWidget' ) ) {
 
-			watchThisWidget = OO.ui.infuse( '#wpWatchThisWidget' );
+			watchThisWidget = OO.ui.infuse( '#wpWatchthisWidget' );
 			watchlistExpiryWidget = OO.ui.infuse( '#wpWatchlistExpiryWidget' );
 			// Set initial state to match the watchthis checkbox.
 			watchlistExpiryWidget.setDisabled( !watchThisWidget.isSelected() );
@@ -22,11 +22,6 @@
 			// Change state on every change of the watchthis checkbox.
 			watchThisWidget.on( 'change', function ( enabled ) {
 				watchlistExpiryWidget.setDisabled( !enabled );
-
-				// Reset the watchlist-expiry dropdown to the 'infinite' value
-				if ( watchlistExpiryWidget.isDisabled() ) {
-					watchlistExpiryWidget.setValue( 'infinite' );
-				}
 			} );
 		}
 	} );
