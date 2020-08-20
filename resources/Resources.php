@@ -1471,6 +1471,19 @@ return [
 			'ready.js',
 			'checkboxShift.js',
 			'checkboxHack.js',
+			[ 'name' => 'config.json', 'callback' => function (
+				ResourceLoaderContext $context,
+				Config $config
+			) {
+				$readyConfig = [
+					'search' => true,
+					'collapsible' => true,
+					'sortable' => true,
+				];
+
+				Hooks::runner()->onSkinPageReadyConfig( $context, $readyConfig );
+				return $readyConfig;
+			} ],
 		],
 		'dependencies' => [
 			'mediawiki.util',
