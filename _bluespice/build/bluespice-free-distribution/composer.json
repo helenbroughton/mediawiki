@@ -25,7 +25,6 @@
 		"mediawiki/user-functions": "dev-REL1_35",
 		"mediawiki/user-merge": "dev-REL1_35",
 		"mediawiki/variables": "dev-REL1_35",
-		"mediawiki/visual-editor": "dev-REL1_35",
 		"mediawiki/url-get-parameters": "dev-REL1_35"
 	}
 }
