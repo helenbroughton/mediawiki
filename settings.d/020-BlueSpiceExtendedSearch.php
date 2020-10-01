@@ -2,4 +2,5 @@
 return; // Disabled. Needs Tomcat
 
 wfLoadExtension( 'BlueSpiceExtendedSearch' );
-$GLOBALS['wgSearchType'] = 'BS\\ExtendedSearch\\MediaWiki\\Backend\\BlueSpiceSearch';
+// Set ExtendedSearch backend as default MW engine
+$GLOBALS['wgSearchType'] = \BS\ExtendedSearch\MediaWiki\Backend\BlueSpiceSearch::class;
